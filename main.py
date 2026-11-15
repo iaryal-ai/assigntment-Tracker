@@ -3,7 +3,7 @@ from drafter import *
 
 set_website_title("Assigntment Tracker")
 set_site_information(
-    author="Ishaan Aryal,
+    author="Ishaan Aryal",
     description="Tracking assigmentment",
     sources="Thanks to the Drafter docs and my study group.",
     planning=["CS1 Final Project 0_ Pick a Problem.pdf", "CS1 Final Project 1_ Design (1).pdf", "cisc final llm conversation.pdf"],
