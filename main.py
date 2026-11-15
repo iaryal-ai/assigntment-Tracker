@@ -493,7 +493,7 @@ def about(state: State) -> Page:
             "Open Completed to review finished assignments.",
             "Open Delete Assignment to remove an assignment.",
         ]),
-        "Your information stays available while this program is running.",
+        "link to repository: https://github.com/iaryal-ai/assigntment-Tracker.",
         Button("Back Home", "index"),
     ])
 
