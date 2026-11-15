@@ -1,12 +1,17 @@
-"""
-Student Assignment Tracker
-
-The app stores its information in State while the website is running.
-This starter version does not save information after the program is stopped.
-"""
-
 from dataclasses import dataclass
 from drafter import *
+
+set_website_title("Assigntment Tracker")
+set_site_information(
+    author="Ishaan Aryal,
+    description="Tracking assigmentment",
+    sources="Thanks to the Drafter docs and my study group.",
+    planning=["CS1 Final Project 0_ Pick a Problem.pdf", "CS1 Final Project 1_ Design (1).pdf", "cisc final llm conversation.pdf"],
+    links=["https://drive.google.com/drive/folders/1d2lI9GvajqjMHn_KXzXI7G9igT_P6-Vr?usp=drive_link"]
+)
+hide_debug_information()
+set_website_framed(False)
+
 
 
 # @dataclass automatically creates useful methods such as __init__.
